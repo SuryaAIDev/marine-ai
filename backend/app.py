@@ -12,8 +12,8 @@ from fastapi import FastAPI, File, UploadFile, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from .yolo_detector import detect_species
-from .rag_pipeline import generate_species_answer
+from yolo_detector import detect_species   #changed .yolo_detector
+from rag_pipeline import generate_species_answer   #changed .rag_pipeline
 
 app = FastAPI(
     title="Marine Species AI API",
