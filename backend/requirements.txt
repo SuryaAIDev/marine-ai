@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pillow
+ultralytics
+faiss-cpu
+sentence-transformers
+numpy
+opencv-python-headless
