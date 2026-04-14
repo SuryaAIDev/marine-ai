@@ -6,3 +6,4 @@ faiss-cpu
 sentence-transformers
 numpy
 opencv-python-headless
+python-multipart
