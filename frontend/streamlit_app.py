@@ -19,7 +19,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-BACKEND_URL = "http://127.0.0.1:8000/analyze"
+BACKEND_URL = "https://marine-ai.onrender.com/analyze" #"http://127.0.0.1:8000/analyze"
 
 # ── Custom CSS ────────────────────────────────────────────────────────────────
 st.markdown("""
